@@ -18,7 +18,7 @@ git clone https://github.com/OhioIoT-Examples/ESP32_WiFi_Reconnect.git
 
 
 ### Getting Started - Arduino IDE 
-- Open ***wifi_lab.ino*** in the ***wifi_lab/*** folder.  That sketch directly links both files in the ***lib/wifi_tools*** directory. 
+- Open ***wifi_lab.ino*** in the ***wifi_lab/*** folder.  That sketch directly links all three files in the ***lib/wifi_tools*** directory. 
 - Add your wifi credentials in ***wifi_lab.ino***.
 - When you are satisfied that it works:
   - copy the ***wifi_tools*** folder to your Arduino shared ***libraries/*** folder
