@@ -2,7 +2,7 @@
 
 
 ## Overview
-This code serves is an output from the YouTube video [ESP32 WiFi - Fastest WiFi Check Using Events](https://youtu.be/Ie_zWN5bujE), part of a video series marching toward your next-level WiFi library for ESP32 IoT developers.  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
+This code serves is an output from the YouTube video [ESP32 WiFi - Reconnect The RightWay](https://youtu.be/Ie_zWN5bujE), part of a video series marching toward your next-level WiFi library for ESP32 IoT developers.  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
 
 
 
