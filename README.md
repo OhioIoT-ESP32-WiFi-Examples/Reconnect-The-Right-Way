@@ -5,28 +5,6 @@
 This code serves is an output from the YouTube video [ESP32 WiFi - Fastest WiFi Check Using Events](https://youtu.be/Ie_zWN5bujE), part of a video series marching toward your next-level WiFi library for ESP32 IoT developers.  👉 Subscribe to the [OhioIoT YouTube Channel](https://www.youtube.com/@OhioIoT?sub_confirmation=1) for more on All Things IoT: hardware, firmware, connectivity, cloud computing, and dev toolkit.
 
 
-## Getting Started
-```
-git clone https://github.com/OhioIoT-Examples/ESP32_WiFi_Clocking.git
-```
-
-
-### Getting Started - PlatformIO
-- Set your WiFi credentials in ***src/main.cpp***
-- Compile and run
-
-### Getting Started - Arduino IDE 
-- In Arduino IDE, Open ***clocker.ino*** in the ***clocker*** folder
-- Set your WiFi credentials in ***clocker.ino***
-- Compile and run
-
-<br>
-*OhioIoT is an IoT platform designed for small-scale IoT projects:  https://www.ohioiot.com*
-
-
-
-
-
 
 ## Getting Started
 ```
@@ -43,8 +21,8 @@ git clone https://github.com/OhioIoT-Examples/ESP32_WiFi_Reconnect.git
 - Open ***wifi_lab.ino*** in the ***wifi_lab/*** folder.  That sketch directly links both files in the ***lib/wifi_tools*** directory. 
 - Add your wifi credentials in ***wifi_lab.ino***.
 - When you are satisfied that it works:
-- - copy the ***wifi_tools*** folder to your Arduino shared ***libraries/*** folder
-- - change your include to be `#include "wifi_tools.h"`
+  - copy the ***wifi_tools*** folder to your Arduino shared ***libraries/*** folder
+  - change your include to be `#include "wifi_tools.h"`
 
 
 <br>
