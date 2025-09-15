@@ -31,7 +31,8 @@ void WiFi_Tools::_event_handler(WiFiEvent_t event, WiFiEventInfo_t info) {
 		bool _manually_disconnected = info.wifi_sta_disconnected.reason == WIFI_REASON_ASSOC_LEAVE;
 		
 		if (!_manually_disconnected && !wifi_tools._is_first_disconnect) {
-			wifi_tools._reconnect();
+			// wifi_tools._reconnect();
+			WiFi.reconnect();  // CHANGED AFTER VIDEO PUBLICATION.  SEE THE README.md
 		}
 
 		wifi_tools._is_first_disconnect = false;
