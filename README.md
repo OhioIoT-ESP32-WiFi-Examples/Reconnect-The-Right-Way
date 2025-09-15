@@ -24,6 +24,8 @@ git clone https://github.com/OhioIoT-Examples/ESP32_WiFi_Reconnect.git
   - copy the ***wifi_tools*** folder to your Arduino shared ***libraries/*** folder
   - change your include in ***wifi_lab.ino*** to be `#include "wifi_tools.h"`
 
+## Updates
+- 2025-09-15: Re-inserted `WiFi.reconnect()` as the reconnect function in the event handler.  `wifi_tools.reconnect()` see more in the video that will post on 9/27: 
 
 <br>
 
