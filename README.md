@@ -25,7 +25,7 @@ git clone https://github.com/OhioIoT-Examples/ESP32_WiFi_Reconnect.git
   - change your include in ***wifi_lab.ino*** to be `#include "wifi_tools.h"`
 
 ## Updates
-- 2025-09-15: Re-inserted `WiFi.reconnect()` as the reconnect function in the event handler (see more in the video that will post on 9/27)
+- 09-15-2025: Re-inserted `WiFi.reconnect()` as the reconnect function in the event handler (see more in the video that will post on 9/27)
 
 <br>
 
