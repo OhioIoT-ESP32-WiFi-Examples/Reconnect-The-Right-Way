@@ -1,8 +1,8 @@
 
 #include "wifi_tools.h"
 
-const char * ssid = "LAV_in_Seoul";
-const char * pass = "100F_&_humid";
+const char * ssid = "[your SSID]";
+const char * pass = "[your WiFi Password]";
 
 void setup() {
 	Serial.begin(115200);

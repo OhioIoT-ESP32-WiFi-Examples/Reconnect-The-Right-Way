@@ -4,8 +4,8 @@
 #include "../lib/wifi_tools/wifi_tools.cpp"         // delete when wifi_tools is in libraries/
 #include "../lib/wifi_tools/wifi_tools_debug.cpp"   // delete when wifi_tools is in libraries/
  
-const char * ssid = "LAV_in_Seoul";
-const char * pass = "100F_&_humid";
+const char * ssid = "[your SSID]";
+const char * pass = "[your WiFi Password]";
 
 void setup() {
 	Serial.begin(115200);
