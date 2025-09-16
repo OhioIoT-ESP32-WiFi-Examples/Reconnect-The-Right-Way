@@ -25,7 +25,7 @@ git clone https://github.com/OhioIoT-Examples/ESP32_WiFi_Reconnect.git
   - change your include in ***wifi_lab.ino*** to be `#include "wifi_tools.h"`
 
 ## Updates
-- 09-15-2025: Re-inserted `WiFi.reconnect()` as the reconnect function in the event handler (see more in the video that will post on 9/27)
+- 09-15-2025: Re-inserted `WiFi.reconnect()` as the reconnect function in the event handler.  `wifi_tools.reconnect()` is only calling `WiFi.reconnect()` after the timer exceeds he threshold.  This works if we are constantly polling this function in the loop whenever `!wifi_tools.is_connected`. Events happen when they happen.  If your disconnected event happens before the timer is exceeded - no reconnect. 
 
 <br>
 
