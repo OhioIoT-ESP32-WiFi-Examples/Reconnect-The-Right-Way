@@ -32,7 +32,8 @@ void WiFi_Tools::_event_handler(WiFiEvent_t event, WiFiEventInfo_t info) {
 		
 		if (!_manually_disconnected && !wifi_tools._is_first_disconnect) {
 			// wifi_tools._reconnect();
-			WiFi.reconnect();  // CHANGED AFTER VIDEO PUBLICATION.  SEE THE README.md
+			// WiFi.reconnect();  
+			wifi_tools._should_reconnect = true;	// CHANGED AFTER VIDEO PUBLICATION.  SEE THE README.md
 		}
 
 		wifi_tools._is_first_disconnect = false;
@@ -48,7 +49,7 @@ void WiFi_Tools::_event_handler(WiFiEvent_t event, WiFiEventInfo_t info) {
 
 
 void WiFi_Tools::_reconnect() {
-	if (millis() - _reconnect_timer > RECONNECT_INTERVAL) {
+	if (millis() - _reconnect_timer > RECONNECT_INTERVAL && _should_reconnect) {	// CHANGED AFTER VIDEO PUBLICATION.  SEE THE README.md
 		Serial.println("\tcalling for reconnection...");
 		WiFi.reconnect();
 		_reconnect_timer = millis();

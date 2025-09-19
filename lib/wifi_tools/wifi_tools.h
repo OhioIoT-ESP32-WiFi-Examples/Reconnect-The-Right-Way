@@ -23,6 +23,7 @@ class WiFi_Tools {
 
         bool _event_logging_enabled = false;
         bool _is_first_disconnect = true;
+        bool _should_reconnect = true;      // CHANGED AFTER VIDEO PUBLICATION.  SEE THE README.md
 
         unsigned long _status_timer;
         unsigned long _reconnect_timer;

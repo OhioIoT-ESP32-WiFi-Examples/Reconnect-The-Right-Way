@@ -16,7 +16,9 @@ void loop() {
 
 	if (wifi_tools.is_connected) {
 		// run the code that depends on the network
-	} 
+	} else {
+		wifi_tools.reconnect();	// CHANGED AFTER VIDEO PUBLICATION.  SEE THE README.md
+	}
 
 	wifi_tools.log_status();
 

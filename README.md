@@ -26,6 +26,7 @@ git clone https://github.com/OhioIoT-Examples/ESP32-WiFi_Reconnect.git
 
 ## Updates
 - 09-15-2025: Re-inserted `WiFi.reconnect()` as the reconnect function in the event handler.  `wifi_tools.reconnect()` is only calling `WiFi.reconnect()` after the timer exceeds he threshold.  This works if we are constantly polling this function in the loop whenever `!wifi_tools.is_connected`. Events happen when they happen.  If your disconnected event happens before the timer is exceeded - no reconnect. 
+- 09-19-2025: My observation thus far was that a disconnect event is called every time you call WiFi.begin() and fail to connect.  That doesn't mean it's always the case.  Until it is confirmed, we need to keep checking the reconnect() function in the loop whenever it is the case that we are not connected.
 
 <br>
 
