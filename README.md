@@ -1,4 +1,4 @@
-# WiFi: Reconnect <img src="https://www.ohioiot.com/images/logo.jpg" width=40px >
+# ESP32 WiFi: Reconnect The Right Way <img src="https://www.ohioiot.com/images/logo.jpg" width=40px >
 
 
 ## Overview
@@ -8,7 +8,7 @@ This code serves is an output from the YouTube video [ESP32 WiFi - Reconnect The
 
 ## Getting Started
 ```
-git clone https://github.com/OhioIoT-Examples/ESP32-WiFi_Reconnect.git
+git clone https://github.com/OhioIoT-Examples/ESP32-WiFi_Reconnect-The-Right-Way.git
 ```
 
 
