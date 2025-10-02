@@ -8,7 +8,7 @@ This code serves is an output from the YouTube video [ESP32 WiFi - Reconnect The
 
 ## Getting Started
 ```
-git clone https://github.com/OhioIoT-Examples/ESP32-WiFi_Reconnect-The-Right-Way.git
+git clone https://github.com/OhioIoT-ESP32-WiFi-Examples/Reconnect-The-Right-Way.git
 ```
 
 
